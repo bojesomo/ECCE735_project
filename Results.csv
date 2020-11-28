@@ -1,0 +1,28 @@
+data_root,dataset,net_type,base_model,batch_size,epochs,validation_split,use_custom_loss,model_name,Mean_Dice_Coefficient,frequency_weighted_IoU,mean_IoU,class_wise_IoU
+/home/farhanakram/Alabi/Datasets/,OPIXray,unet,resnet50,3,15,0.1,TRUE,,0.654141048,0.985918661,0.486039824,"[0.99114664, 0.20559291, 0.69110268, 0.54043938, 0.46490407, 0.50909309, 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,segnet,resnet50,3,15,0.1,TRUE,,0.636420265,0.988809152,0.466727577,"[0.99436602, 0.18372374, 0.67403065, 0.5090639 , 0.43396022, 0.47194851, 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,pspnet,resnet50,3,15,0.1,TRUE,,0.658819547,0.989640291,0.491223643,"[0.99481915, 0.22140145, 0.70950537, 0.53248617, 0.47098427, 0.50936909, 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,unet,densenet121,3,15,0.1,TRUE,densenet121_unet_OPIXray,0.680380048,0.990053856,0.515587876,"[0.99495582 0.31450353 0.70988089 0.53944817 0.48047896 0.56984776
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,segnet,densenet121,3,15,0.1,TRUE,densenet121_segnet_OPIXray,0.691787881,0.990699146,0.52880406,"[0.99537395 0.29510471 0.72530484 0.59872651 0.52212551 0.56499291
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,pspnet,densenet121,3,15,0.1,TRUE,densenet121_pspnet_OPIXray,0.68753866,0.990510188,0.523854409,"[0.995275   0.30467418 0.71473777 0.58574714 0.51472769 0.55181908
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,fcn_8,densenet121,1,15,0.1,TRUE,densenet121_fcn_8_OPIXray,0.590291892,0.986142515,0.418733416,"[0.99247397 0.09778047 0.58463141 0.44431514 0.39146956 0.42046336
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,segnet,vgg,3,15,0.1,TRUE,vgg_segnet_OPIXray,0.66789611,0.989552267,0.5013844,"[0.99464908 0.25369698 0.68184707 0.56953209 0.49784268 0.5121229
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,unet,vgg,4,15,0.1,TRUE,vgg_unet_OPIXray,0.653253189,0.979091617,0.485060134,"[0.98428363 0.23288096 0.67205223 0.55883011 0.46642826 0.48094575
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,pspnet,vgg,4,15,0.1,True,vgg_pspnet_OPIXray,0.6906649461887148,0.9905881586031818,0.5274929012083568,"[0.99531033 0.29070592 0.71523734 0.58662941 0.50948641 0.5950809
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,segnet,,4,15,0.1,True,segnet_OPIXray,0.4986915022798659,0.9843438007877705,0.33217123798151527,"[0.99208554 0.03149403 0.4523554  0.29377937 0.25903916 0.29644517
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,pspnet,resnet50,3,15,0.1,True,resnet50_pspnet_OPIXray,0.5925161309825493,0.9875392235543825,0.42097543284540695,"[0.99370446 0.08939388 0.65476663 0.42572897 0.39127636 0.39195774
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,segnet,resnet50,3,15,0.1,True,resnet50_segnet_OPIXray,0.541509472372111,0.9859337185050786,0.37128076056334086,"[0.99283072 0.01903354 0.61306052 0.37471397 0.26289637 0.33643021
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,segnet,densenet121,3,15,0.1,True,densenet121_segnet_OPIXray,0.602903982841051,0.9880547162432667,0.43154083573087576,"[0.99408358 0.02795761 0.64704108 0.53887234 0.37726172 0.43556952
+ 0.        ]"
+/home/farhanakram/Alabi/Datasets/,OPIXray,pspnet,densenet121,3,15,0.1,True,densenet121_pspnet_OPIXray,0.5914252964277278,0.9874869070850816,0.4198749948638293,"[0.99373538 0.10805828 0.64214344 0.45147147 0.30467968 0.43903671
+ 0.        ]"
